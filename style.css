@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color:rgb(14, 20, 43) ;
+}
+
+.section-nav{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(14, 20, 43);
+    background: linear-gradient(145deg , #382ec0 , #c85615);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+.section-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin-left: 100px; /* oraliq */
+}
+
+.section-nav li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.article{
+   
+}
+.card-text{
+    color: #d9d9d9;
+    text-align: center;
+    margin-top: 50px;
+    gap: 15px;
+}
+
