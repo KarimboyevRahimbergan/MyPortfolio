@@ -9,26 +9,109 @@
 <body>
     <div class="big-div">
         <section class="container">
-            <div class="section-nav">
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>CONNECT ME</li>
-                </ul>
-                <div class="section-nav-img">
+        <div class="section-nav">
+                 <div class="section-nav-img">
                     <img class="" src="./Frame 1.png" alt="">
                 </div>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#conm"> CONNECT ME</a></li>
+                </ul>
             </div>
             <article>
-                <div class="big-card">
+                <div id="home" class="big-card">
                     <div class="card-text">
                         <h1>MyPortfolio</h1>
-                        <h2>I’m Karimboyev Rahimbergan</h2>
-                        <p>Web Developer and SOFTWARE <br>Graphic Design</p>
+                        <h2>Hello! I Am <span> Karimboyev Rahimbergan</span></h2>
+                    </div> 
+                    <div class="card-img">
+                        <img class="card-icon" src="./image 1.png" alt="">
+                        <img class="card-2icon" src="./Gradient.png" alt="">
+                        <img class="card-3icon" src="./Vector.png" alt="">
+                    </div>    
+                    <div class="card-main">
+                        <h2></h2>
+                        <p>I'm a Web Developer & SOFTWARE Developer <br><span>AND</span> <br> <span class="span">Graphic Designer</span></p>
                     </div>
                 </div>
-            </article>
+            </article> 
+            <section class="two-card">
+                 <div class="titul">
+                    Directions I know
+                </div>
+            <div class="derection-box">
+                <div class="derection-icon">
+                <img src="./Figma-logo logo.png" alt="">
+                <h3>Figma</h3>
+                <h3>100%</h3>
+                </div>
+                    <div class="derection-icon">
+                    <img src="./layer1.png" alt="">
+                    <h3>HTML</h3>
+                    <h3>100%</h3>
+                    </div>
+                        <div class="derection-icon">
+                        <img src="./Vector (1).png" alt="">
+                        <h3>CSS</h3>
+                        <h3>95%</h3>
+                        </div>
+                    <div class="derection-icon">
+                    <img src="./python 1.png" alt="">
+                    <h3>Python</h3>
+                    <h3>50%</h3>
+                    </div> 
+                           
+            </div>
+            <div class="qisqacha">
+                    <img src="./adobe-photoshop.png" alt="">
+                    <h3>I have 1 year of experience in Photoshop. I am a creative person. Using my knowledge, I have created banners, avatars, and compositions.</h3>
+                </div>
         </section>
-    </div>
+        <hr style="color:#091030 ;"> 
+        
+        
+        <section id="about" class="third-card">
+            <div class="card-main">
+                <h2>
+                    About Me 
+                </h2>
+                <div class="personal-foto">
+                    <img src="./Obichniy photo.png" alt="">
+                <h3>
+                    My name is Rahimbergan. I was born in the Khorezm region of the Republic of Uzbekistan.I'm 18 years old.I graduated from secondary education in 2025.
+                </h3>
+                </div>        
+                <div class="card-image">
+                    <img src="./PDP image.png" alt="pdp university">
+                    <h3>I am currently a student at PDP UNIVERSITY. I am not very familiar with programming yet. I chose SOFTWARE and am studying this field.</h3>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div id="conm" class="contact">
+                <h2>
+                    Cantact Me
+                </h2>
+                <div>
+             <form class="murojaat" action="">
+                <label for="#text">Name:</label><br>
+                <input required placeholder="Ismingizni yozing!" id="text" type="text"><br><br>
+    
+                <label for="Name">Email:</label><br>
+                <input required placeholder="Emailni kiriting!" type="email" name="" id="Name"><br><br>
+
+                <label for="#text">Massage:</label><br>
+                <textarea class="obichni" name="text" placeholder="Qo'shimcha xabar yozasizmi?" id="text"></textarea><br><br>
+
+                <input class="button" value="Register" type="submit" name="Register" id="#">
+                </form>
+            </div>
+            </div>
+        </section>
+        </section>
+        
+        </div>
 </body>
 </html>
